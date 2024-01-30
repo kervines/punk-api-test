@@ -5,77 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
   <link rel="shortcut icon" href="./assets/favicon/beer-mug-empty-solid.svg" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <script defer src="./js/script.js"></script>
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- fontawesome -->
-  <!-- BootStrap5 -->
-  <script src="
-https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js
-"></script>
-  <link href="
-https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
-" rel="stylesheet">
-  <!-- BootStrap5 -->
-
   <title>Beer Showcase</title>
 </head>
 
 <body>
   <h1>Beer Showcase</h1>
-  <div class="container-beer row">
-    <div class="beer-item col row">
-      <div class="beer-info col">
-        <ul>
-          <h2>Ingredientes</h2>
-          <li>MALTE</li>
-          <li>LÚPULO</li>
-          <li>LEVEDURA</li>
-        </ul>
-      </div>
-      <div class="beer-card col">
-        <h2>Punk IPA 2007 - 2010</h2>
-        <div class="bg-image">
-          <img class="" src="https://images.punkapi.com/v2/192.png" alt="">
+  <nav class="sidebar">
+  </nav>
+  <div class="container-beer">
+    <div class="beer-item">
+      <div class="beer-card">
+        <div class="beer-description">
+          <div class="description">
+            <span class="id"></span><span class="name-beer"></span>
+          </div>
+          <div class="bg-image">
+            <img class="" src="" alt="">
+          </div>
         </div>
-        <p>Our flagship beer that kick started the craft beer revolution. This is James and Martin's original take on an American IPA, subverted with punchy New Zealand hops. Layered with new world hops to create an all-out riot of grapefruit, pineapple and lychee before a spiky, mouth-puckering bitter finish.</p>
       </div>
-    </div>
-    <div class="beer-item col row">
-      <div class="beer-info col">
-        <ul>
-          <h2>Ingredientes</h2>
-          <li>MALTE</li>
-          <li>LÚPULO</li>
-          <li>LEVEDURA</li>
-        </ul>
-      </div>
-      <div class="beer-card col">
-        <h2>Punk IPA 2007 - 2010</h2>
-        <div class="bg-image">
-          <img class="" src="https://images.punkapi.com/v2/192.png" alt="">
+      <div class="beer-info">
+        <div class="beer-ingredients">
+          <h2>Ingredients</h2>
+          <div class="malt">
+            <h3>Malt</h3>
+          </div>
+          <div class="hops">
+            <h3>Hops</h3>
+          </div>
+          <div class="yeast">
+            <h3>Yeast</h3>
+          </div>
         </div>
-        <p>Our flagship beer that kick started the craft beer revolution. This is James and Martin's original take on an American IPA, subverted with punchy New Zealand hops. Layered with new world hops to create an all-out riot of grapefruit, pineapple and lychee before a spiky, mouth-puckering bitter finish.</p>
-      </div>
-    </div>
-    <div class="beer-item col row">
-      <div class="beer-info col">
-        <ul>
-          <h2>Ingredientes</h2>
-          <li>MALTE</li>
-          <li>LÚPULO</li>
-          <li>LEVEDURA</li>
-        </ul>
-      </div>
-      <div class="beer-card col">
-        <h2>Punk IPA 2007 - 2010</h2>
-        <div class="bg-image">
-          <img class="" src="https://images.punkapi.com/v2/192.png" alt="">
+        <div class="beer-pairing">
+          <h3>Food Pairing</h3>
+
         </div>
-        <p>Our flagship beer that kick started the craft beer revolution. This is James and Martin's original take on an American IPA, subverted with punchy New Zealand hops. Layered with new world hops to create an all-out riot of grapefruit, pineapple and lychee before a spiky, mouth-puckering bitter finish.</p>
+        <div class="beer-card-info">
+          <div class="abv">
+            <span>ABV <span class="abv-percent"></span></span>
+
+          </div>
+          <div class="ibu">
+            <span>IBU <span class="ibu-percent"></span></span>
+          </div>
+        </div>
+      </div>
+      <div class="beer-btn">
+        <button class="prev">&lsaquo; PREVIOUS</button>
+        <button class="next">NEXT &rsaquo;</button>
       </div>
     </div>
   </div>
